@@ -8,17 +8,16 @@ namespace _01.Exchange_If_Greater
         {
             double a = double.Parse(Console.ReadLine());
             double b = double.Parse(Console.ReadLine());
-            var a1 = a;
-            var b1 = b;
+            double c;
 
             if (a > b)
             {
-                Console.WriteLine("{0} {1}", b, a);
+                c = a;
+                a = b;
+                b = c;
             }
-            else
-            {
-                Console.WriteLine("{0} {1}", a, b);
-            }
+
+            Console.WriteLine("{0} {1}", a, b);
         }
     }
 }
