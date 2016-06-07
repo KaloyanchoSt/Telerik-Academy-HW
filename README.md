@@ -1,4 +1,7 @@
-## ![Telerik](https://raw.githubusercontent.com/KaloyanchoSt/Telerik-Academy/master/images/telerik-academy-logo.jpg)  
+## ![Telerik]
+<p align="center">
+  <img src="https://raw.githubusercontent.com/KaloyanchoSt/Telerik-Academy/master/images/telerik-academy-logo.jpg" />
+</p>
 
 * Course assignments - homeworks, presentations, demos, projects and teamworks.
 
