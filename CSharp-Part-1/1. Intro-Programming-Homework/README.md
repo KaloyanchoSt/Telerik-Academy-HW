@@ -1,24 +1,24 @@
-Homework: Introduction to Programming
-=====================================
+## 02. Data Types and Variables
 
-### [Submit homework in bgcoder](http://bgcoder.com/Contests/314/CSharp-Fundamentals-01-Introduction-to-Programming)
+Primitive data types (`int`, `short`, `byte`, `long`, `bool`, `string`, `char`), creating and using variables
 
-### Problem List
+## Resources
 
-1. [Play with Visual Studio](./01. Play with VS)
-1. [Blank Solution](./02. Blank Solution)
-1. [Play with MSDN Library](./03. Play with MSDN)
-1. [Hello World](./04. Hello World)
-1. [Print Name](./05. Print Name)
-1. [Print Numbers](./06. Print Numbers)
-1. [Print First and Last Name](./07. First and Last Name)
-1. [Square root](./08. Square Root)
-1. [Print Sequence](./09. Print Sequence)
-1. [Format Code](./10. Format Code)
-1. [Programming Languages](./11. Programming Languages)
-1. [Development Environments](./12. Development Environments)
-1. [C# and .NET Differences](./13.%20C%23%20and%20.NET)
-1. [Current Date and Time](./14. Current Date and Time)
-1. [Age](./15. Age)
-1. [Print Long Sequence](./16. Long Sequence)
-1. [Play with the VS Debugger](./17. Play with VS Debugger)
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/Topics/02.%20Data-Types-and-Variables/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](VIDEOS.md)
+
+## Table of Contents
+- [Primitive Data Types](slides/README.md#/primitive)
+  - [Integer](slides/README.md#/integer)
+  - [Floating-Point / Decimal Floating-Point](slides/README.md#/float)
+  - [Boolean](slides/README.md#/bool)
+  - [Character](slides/README.md#/char)
+  - [String](slides/README.md#/string)
+  - [Object](slides/README.md#/object)
+- [Declaring and Using Variables](slides/README.md#/declaring)
+  - [Identifiers](slides/README.md#/identifiers)
+  - [Declaring Variables and Assigning Values](slides/README.md#/assign)
+  - [Literals](slides/README.md#/literals)
+- [Nullable Types](slides/README.md#/nullable)
+- [Dynamic Types](slides/README.md#/dynamic)
+
+#### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/home.png" height="20" /> home](/README.md)
