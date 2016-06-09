@@ -32,7 +32,7 @@ Borders, backgrounds, text-related properties
 Width, height, margins, paddings, positioning
 
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://github.com/KaloyanchoSt/Telerik-Academy/blob/master/CSS/03.%20CSS-Layout/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/03. CSS-Layout/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/03. CSS-Layout/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/03. CSS-Layout/VIDEOS.md)
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://github.com/KaloyanchoSt/Telerik-Academy/master/CSS/03.%20CSS-Layout/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/03. CSS-Layout/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/03. CSS-Layout/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/03. CSS-Layout/VIDEOS.md)
 
 
 ### [04. LESS](./Topics/04. LESS)
