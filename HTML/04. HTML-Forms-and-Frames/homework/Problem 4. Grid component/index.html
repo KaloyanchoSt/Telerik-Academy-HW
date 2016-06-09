@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Grid Component</title>
+	<style>
+	body {
+    width: 1000px;
+	font-family: Calibri;
+    text-align: left;
+}
+
+table {
+	font-size:13px;
+    text-align: left;
+	background:#C9DFFC;
+	border-width: 1px;
+	border-color: #C9DFFC;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-weight: normal;
+}
+
+table th.topSide {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+table th {
+	background:#C9DFFC;
+    text-align: left;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #C9DFFC;
+    font-weight: normal;
+}
+table td {
+	border-width: 1px;
+    text-align: left;
+    height: 20px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #CCFFFF;
+    font-weight: normal;
+}
+
+table th.headers {
+    background-color: #CCFFFF;
+}
+
+.productID {
+    width: 3%;
+}
+
+.productName {
+    width: 30%;
+}
+
+.unitPrice {
+    width: 15%;
+}
+
+.quantityPerUnit {
+    width: 20%;
+}
+
+.unitsInStock {
+    width: 15%;
+}
+
+.discontinued {
+    width: 10%;
+}
+
+.myButton{
+    background:url(./filter.png) no-repeat;
+    cursor:pointer;
+    border:none;
+	padding: 6px;
+    width:22px;
+    height: 22px;
+}
+.firstPage{
+    background:url(./firstpage.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    padding: 6px;
+    width:22px;
+    height: 22px;
+}
+.prevPage{
+    background:url(./prevpage.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:22px;
+    padding: 6px;
+    height: 22px;
+}
+.nextPage{
+    background:url(./nextpage.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    padding: 6px;
+    width:22px;
+    height: 22px;
+}
+.lastPage{
+    background:url(./lastpage.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:22px;
+    padding: 6px;
+    height: 22px;
+}
+.numberPage{
+    cursor:pointer;
+    height: 22px;
+}
+
+span.bottomInfo {
+    float: right;
+}
+
+table th.bottomItems {
+    background-color: #99FFFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bottomItems a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.bottomItems a:focus {
+    outline: 1px solid;
+    outline-color: #99FFFF;
+}
+	</style>
+</head>
+
+<body>
+<form action="#" method="POST">
+	<table>
+	<thead>
+		<tr>
+			<th colspan="6" class="topSide">Drag a column header and drop it here to group by that column</th>
+		</tr>
+		<tr>
+			<th class="productID">ProductID</th>
+			<th class="productName">Product name</th>
+			<th class="unitPrice">Unit price</th>
+			<th class="quantityPerUnit">Quantity per unit</th>
+			<th class="unitsInStock">Units in stock</th>
+			<th class="discontinued">Discontinued</th>
+		</tr>
+		</thead>
+				<tfoot>
+	<tr>
+			<th colspan="6" class="bottomItems">
+			<input class="firstPage" type="submit" value="">
+			<input class="prevPage" type="submit" value="">
+			<!--<input class="numberPage" type="submit" value="1">
+			<input class="numberPage" type="submit" value="2">
+			<input class="numberPage" type="submit" value="3">
+			<input class="numberPage" type="submit" value="4">
+			<input class="numberPage" type="submit" value="5">
+			<input class="numberPage" type="submit" value="6">
+			<input class="numberPage" type="submit" value="7">
+			<input class="numberPage" type="submit" value="8">
+			<input class="numberPage" type="submit" value="9">
+			<input class="numberPage" type="submit" value="10">-->
+			<a href="#">1</a>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+			<a href="#">5</a>
+			<a href="#">6</a>
+			<a href="#">7</a>
+			<a href="#">8</a>
+			<a href="#">9</a>
+			<a href="#">10</a>
+			
+			<span>...</span>
+			<input class="nextPage" type="submit" value="">
+			<input class="lastPage" type="submit" value="">
+			Page size: <select>
+				<option value="10">10</option>
+				<option value="25">25</option>
+				<option value="50">50</option>
+				<option value="100">100</option>
+			</select>
+			<span class="bottomInfo">335104 items in 33511 pages</span>
+			</th>
+		</tr>
+</tfoot>
+		<tbody>
+		<tr>
+			<th class="headers"><input type="text" name="productID" size="3" /></th>
+			<th class="headers"><input type="text" name="productName" size="30" /></th>
+			<th class="headers"><input type="text" name="unitPrice" size="10" /> <input class="myButton" type="submit" value=""></th>
+			<th class="headers"><input type="text" name="quantityPerUnit" size="10" /></th>
+			<th class="headers"><input type="text" name="unitsInStock" size="10" /> <input class="myButton" type="submit" value=""></th>
+			<th class="headers"><input type="checkbox" name="discontinued" /> <input class="myButton" type="submit" value=""></th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Chai</td>
+			<td>$18.00</td>
+			<td>10 boxes x 20 bags</td>
+			<td>39</td>
+			<td><input type="checkbox" name="discontinued" /></td>
+		</tr>
+
+		<tr>
+			<td>2</td>
+			<td>Chang</td>
+			<td>$19.00</td>
+			<td>24 - 12 oz bottles</td>
+			<td>17</td>
+			<td><input type="checkbox" name="discontinued" /></td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td>Aniseed Syrup</td>
+			<td>$10.00</td>
+			<td>12 - 550 ml bottles</td>
+			<td>13</td>
+			<td><input type="checkbox" name="discontinued" /></td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>Chef Anton's Cajun Seasoning</td>
+			<td>$22.00</td>
+			<td>48 - 6 oz jarz</td>
+			<td>53</td>
+			<td><input type="checkbox" name="discontinued" /></td>
+		</tr>
+
+		<tr>
+			<td>5</td>
+			<td>Chef Anton's Gumbo Mix</td>
+			<td>$21.35</td>
+			<td>36 boxes</td>
+			<td>0</td>
+			<td><input type="checkbox" name="discontinued" /></td>
+		</tr>
+
+		<tr>
+			<td>6</td>
+			<td>Crangma's Bousenberry Spread</td>
+			<td>$25.00</td>
+			<td>12 - 8 oz jars</td>
+			<td>120</td>
+			<td><input type="checkbox" name="discontinued" /></td>
+		</tr>
+
+		<tr>
+			<td>7</td>
+			<td>Uncle Bob's Organic Dried Pears</td>
+			<td>$30.00</td>
+			<td>12 - 1 lb pkgs.</td>
+			<td>15</td>
+			<td><input type="checkbox" name="discontinued" /></td>
+		</tr>
+
+		<tr>
+			<td>8</td>
+			<td>Northwoods Crangerry Sauce</td>
+			<td>$40.00</td>
+			<td>12 - 12 oz jars</td>
+			<td>6</td>
+			<td><input type="checkbox" name="discontinued" /></td>
+		</tr>
+
+		<tr>
+			<td>9</td>
+			<td>Mishi Kobe Niku</td>
+			<td>$97.00</td>
+			<td>18 - 500 g pkgs.</td>
+			<td>29</td>
+			<td><input type="checkbox" name="discontinued" /></td>
+		</tr>
+
+		<tr>
+			<td>10</td>
+			<td>Ikura</td>
+			<td>$31.00</td>
+			<td>12.200 ml jars</td>
+			<td>31</td>
+			<td><input type="checkbox" name="discontinued" /></td>
+		</tr>
+		</tbody>
+	</table>
+	</form>
+</body>
+
+</html>
