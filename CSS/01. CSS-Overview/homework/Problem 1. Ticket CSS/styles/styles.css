@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+table {
+    width: 304px;
+    height: 202px;
+    background-color:#595959;
+    font-family: Arial;
+    font-size: 11px;
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-bottom: 3px; 
+        
+}
+table tr th td {
+    vertical-align: middle;
+    padding-bottom:0;
+    height: 20px;
+
+}
+#ticketid {
+    font-size: 1.5em;
+    font-style:normal;
+    color: #BBBBBB;
+    text-align: left;
+    vertical-align:text-bottom;
+}
+th {
+    text-align: left;
+    color: #FFFFFD;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 20px;
+    vertical-align: middle;
+        
+}
+
+#nosupport {
+    color: red;
+    font-weight:600;
+    padding-top: 0;
+    margin-top: 0;
+    vertical-align: top;
+}
+.accountinfo {
+    color: #FFF6B6;
+    height: 20px;
+}
+.otheraccountinfo {
+    color: #BBBBBB;
+}
+#notanswered {
+    color:#DD6D23;
+    font-weight: 600;
+}
+#bull {
+    font-size: 35px;
+    color: #71b47a;
+    vertical-align: middle;
+    padding-bottom: 0;
+}
+.colon1 {
+    width: 100px;
+}
+td p {
+    padding:0;
+    margin:0;
+    line-height: 15px;
+}
