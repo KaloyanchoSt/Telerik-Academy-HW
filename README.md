@@ -1,14 +1,15 @@
 # TelerikAcademy
-Telerik Academy 2015/2016
+Telerik Academy 2016/2017
 
-| C# Programming          | Web Design and UI                   | Software Technologies             |
-|:-----------------------:|:-----------------------------------:|:---------------------------------:|
-| [C# Part 1](#c-part-1)  | [HTML](#html)                       | [DB](#db)                         |
-| [C# Part 2](#c-part-2)  | [CSS](#css)                         | [WEB-SERVICES](#web-services)     |
-| [C# OOP](#c-oop)        | [JS Fundamentals](#js-fundamentals) |                                   |
-| [HQC](#hqc)             | [JS OOP](#js-oop)                   |                                   |
-| [DSA](#dsa)             | [JS UI&DOM](#js-uidom)              |                                   |
-|                         | [JS APPS](#js-apps)                 |                                   |
+| C# Programming           | Web Design and UI                   | Software Technologies             |
+|:------------------------:|:-----------------------------------:|:---------------------------------:|
+| [C# Part 1](#c-part-1)   | [HTML](#html)                       | [DB](#db)                         |
+| [C# Part 2](#c-part-2)   | [CSS](#css)                         | [WEB-SERVICES](#web-services)     |
+| [C# OOP](#c-oop)         | [JS Fundamentals](#js-fundamentals) |                                   |
+| [HQC Part 1](#hqc-part-1)| [JS OOP](#js-oop)                   |                                   |
+| [HQC Part 2](#hqc-part-2)| [JS UI&DOM](#js-uidom)              |                                   |
+| [Design Patterns](#dp)   | [JS APPS](#js-apps)                 |                                   |
+| [DSA](#dsa)              | [JS APPS](#js-apps)                 |                                   |
 
 
 ---
@@ -52,10 +53,10 @@ Telerik Academy 2015/2016
 ---
 
 ###### [HTML](Homeworks/HTML)
-* [HTML Fundamentals](Homeworks/HTML/HTML-Fundamentals)
-* [Tables](Homeworks/HTML/HTML-Tables)
-* [Forms](Homeworks/HTML/HTML-Forms)
-* [Semantic HTML](Homeworks/HTML/HTML-Semantic)
+* [HTML Fundamentals](2.%20Web%20Design%20and%20UI%20technologies/1.%20HTML/01.%20HTML-Fundamentals)
+* [Tables](2.%20Web%20Design%20and%20UI%20technologies/1.%20HTML/02.%20HTML-Tables)
+* [Forms](2.%20Web%20Design%20and%20UI%20technologies/1.%20HTML/03.%20HTML-Forms-and-Frames)
+* [Semantic HTML](2.%20Web%20Design%20and%20UI%20technologies/1.%20HTML/04.%20Semantic-HTML)
 
 [*Go to top* ^](#telerikacademy)
 
