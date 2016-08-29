@@ -14,38 +14,38 @@ Telerik Academy 2015/2016
 ---
 
 ###### [C# Part 1](Homeworks/C%231)
-* [Intro to Programming](tree/master/1.%20Programming/1.%20CSharp-Part-1/1.%20Intro-Programming-Homework)
+* [Intro to Programming](1.%20Programming/1.%20CSharp-Part-1/1.%20Intro-Programming-Homework)
 * [Primitive Data Types and Variables](1.%20Programming/1.%20CSharp-Part-1/2.%20Data-Types-and-Variables)
-* [Operators and Expressions](Homeworks/C%231/Operators-And-Expressions)
+* [Operators and Expressions](1.%20Programming/1.%20CSharp-Part-1/3.%20Operators-and-Expressions)
 * [Conditional Statements](Homeworks/C%231/Conditional-Statements)
-* [Loops](Homeworks/C%231/Loops)
-* [Console Input/Output](Homeworks/C%231/Console-Input-Output)
+* [Loops](1.%20Programming/1.%20CSharp-Part-1/6.%20Loops)
+* [Console Input/Output](1.%20Programming/1.%20CSharp-Part-1/4.%20Console-In-and-Out)
 
 [*Go to top* ^](#telerikacademy)
 
 ---
 
 ###### [C# Part 2](Homeworks/C%232)
-* [Arrays](Homeworks/C%232/Arrays)
-* [Multidimensional Arrays](Homeworks/C%232/Matrices)
-* [Methods](Homeworks/C%232/Methods)
-* [Numeral Systems](Homeworks/C%232/Numeral-Systems)
-* [Classes and Objects](Homeworks/C%232/Classes-And-Objects)
-* [Strings and Text Processing](Homeworks/C%232/Strings-And-Text-Processing)
-* [Exception Handling](Homeworks/C%232/Exception-Handling)
-* [Text Files](Homeworks/C%232/Text-Files)
+* [Arrays](1.%20Programming/2.%20CSharp-Part-2/01.%20Arrays)
+* [Multidimensional Arrays](1.%20Programming/2.%20CSharp-Part-2/02.%20Multidimensional-Arrays)
+* [Methods](1.%20Programming/2.%20CSharp-Part-2/03.%20Methods)
+* [Numeral Systems](1.%20Programming/2.%20CSharp-Part-2/04.%20Numeral-Systems)
+* [Classes and Objects](1.%20Programming/2.%20CSharp-Part-2/05.%20Using-Classes-and-Objects)
+* [Strings and Text Processing](1.%20Programming/2.%20CSharp-Part-2/06.%20Strings-and-Text-Processing)
+* [Exception Handling](1.%20Programming/2.%20CSharp-Part-2/07.%20Exception-Handling)
+* [Text Files](1.%20Programming/2.%20CSharp-Part-2/08.%20Text-Files)
 
 [*Go to top* ^](#telerikacademy)
 
 ---
 
 ###### [C# OOP](Homeworks/OOP)
-* [Defining Classes - Part 1](Homeworks/OOP/Defining-Classes-FP)
-* [Defining Classes - Part 2](Homeworks/OOP/Defining-Classes-SP)
-* [Extension Methods and LINQ](Homeworks/OOP/Extension-Methods-And-LINQ)
-* [OOP Fundamental Principles - Part 1](Homeworks/OOP/OOP-Fundamental-Principles-FP)
-* [OOP Fundamental Principles - Part 2](Homeworks/OOP/OOP-Fundamental-Principles-SP)
-* [Common Type System](Homeworks/OOP/Common-Type-System)
+* [Defining Classes - Part 1](1.%20Programming/3.%20Object-Oriented-Programming/01.%20Defining-Classes-Part-1)
+* [Defining Classes - Part 2](1.%20Programming/3.%20Object-Oriented-Programming/02.%20Defining-Classes-Part-2)
+* [Extension Methods and LINQ](1.%20Programming/3.%20Object-Oriented-Programming/03.%20Extension-Methods-Delegates-Lambda-LINQ)
+* [OOP Fundamental Principles - Part 1](1.%20Programming/3.%20Object-Oriented-Programming/04.%20OOP-Principles-Part-1)
+* [OOP Fundamental Principles - Part 2](1.%20Programming/3.%20Object-Oriented-Programming/05.%20OOP-Principles-Part-2)
+* [Common Type System](1.%20Programming/3.%20Object-Oriented-Programming/06.%20Common-Type-System)
 
 [*Go to top* ^](#telerikacademy)
 
