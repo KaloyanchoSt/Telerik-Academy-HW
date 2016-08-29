@@ -14,8 +14,8 @@ Telerik Academy 2015/2016
 ---
 
 ###### [C# Part 1](Homeworks/C%231)
-* [Intro to Programming](Homeworks/C%231/Intro-Programming-Homework)
-* [Primitive Data Types and Variables](Homeworks/C%231/Primitive-Data-Types-Variables)
+* [Intro to Programming](tree/master/1.%20Programming/1.%20CSharp-Part-1/1.%20Intro-Programming-Homework)
+* [Primitive Data Types and Variables](1.%20Programming/1.%20CSharp-Part-1/2.%20Data-Types-and-Variables)
 * [Operators and Expressions](Homeworks/C%231/Operators-And-Expressions)
 * [Conditional Statements](Homeworks/C%231/Conditional-Statements)
 * [Loops](Homeworks/C%231/Loops)
