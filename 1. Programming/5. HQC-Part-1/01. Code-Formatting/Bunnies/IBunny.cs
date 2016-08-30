@@ -1,12 +1,12 @@
 ﻿namespace Bunnies
 {
-    interface IBunny
+    public interface IBunny
     {
-        int Age { get; set; }
+        int Age { get; }
 
-        string Name { get; set; }
+        string Name { get; }
 
-        FurType FurType { get; set; }
+        FurType FurType { get; }
 
         void Introduce(IWriter writer);
     }

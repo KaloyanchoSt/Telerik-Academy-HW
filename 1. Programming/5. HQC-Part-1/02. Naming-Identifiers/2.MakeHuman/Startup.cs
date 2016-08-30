@@ -1,10 +1,10 @@
 ﻿namespace MakeHuman
 {
-    class Program
+    public class Startup
     {
-        static void Main()
+        private static void Main()
         {
-            Human human = new Human();
+            var human = new Human();
             if (human.Age % 2 == 0)
             {
                 human.Name = "Батката";
