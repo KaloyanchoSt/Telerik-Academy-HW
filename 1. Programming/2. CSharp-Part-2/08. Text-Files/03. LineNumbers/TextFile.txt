@@ -1,0 +1,4 @@
+Cohesion- Cohesion describes. How closely the routines in a class or the code in a routine support a central purpose.
+Cohesion must be strong. Well-defined abstractions keep cohesion strong. 
+Classes must contain strongly related functionality and aim for single purpose. 
+Cohesion is a powerful tool for managing complexity

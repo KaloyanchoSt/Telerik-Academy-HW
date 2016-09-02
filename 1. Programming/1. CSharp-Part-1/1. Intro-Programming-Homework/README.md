@@ -1,16 +1,24 @@
-## 01. Introduction to Programming
+Homework: Introduction to Programming
+=====================================
 
-IDEs, Programming languages, compilation, C# and .NET
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/314/CSharp-Fundamentals-01-Introduction-to-Programming)
 
-## Resources
+### Problem List
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/Topics/01.%20Introduction-to-Programming/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](VIDEOS.md)
-
-## Table of Contents
-- [What is Computer Programming?](slides/README.md#/programming)
-- [Your First C# Program](slides/README.md#/first)
-- [What is .NET Framework?](slides/README.md#/netframework)
-- [What is Visual Studio?](slides/README.md#/visualstudio)
-- [What is MSDN Library?](slides/README.md#/msdn)
-
-#### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/home.png" height="20" /> home](/README.md)
+1. [Play with Visual Studio](./01. Play with VS)
+1. [Blank Solution](./02. Blank Solution)
+1. [Play with MSDN Library](./03. Play with MSDN)
+1. [Hello World](./04. Hello World)
+1. [Print Name](./05. Print Name)
+1. [Print Numbers](./06. Print Numbers)
+1. [Print First and Last Name](./07. First and Last Name)
+1. [Square root](./08. Square Root)
+1. [Print Sequence](./09. Print Sequence)
+1. [Format Code](./10. Format Code)
+1. [Programming Languages](./11. Programming Languages)
+1. [Development Environments](./12. Development Environments)
+1. [C# and .NET Differences](./13.%20C%23%20and%20.NET)
+1. [Current Date and Time](./14. Current Date and Time)
+1. [Age](./15. Age)
+1. [Print Long Sequence](./16. Long Sequence)
+1. [Play with the VS Debugger](./17. Play with VS Debugger)

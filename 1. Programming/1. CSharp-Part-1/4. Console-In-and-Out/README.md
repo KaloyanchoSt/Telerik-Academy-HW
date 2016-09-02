@@ -1,19 +1,19 @@
-### 04. Console IO
+Homework: Console IO
+====================
 
-Using the `Console` object, reading from the console (strings, numbers), printing to the console with formats
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/311/CSharp-Fundamentals-04-Console-Input-and-Output)
 
-## Resources
+### Problem List
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/Topics/04.%20Console-In-and-Out/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](VIDEOS.md)
-
-## Table of Contents
-- [Printing to the Console](slides/README.md#/printing)
-  - [Printing Strings and Numbers](slides/README.md#/printingtypes)
-- [Reading from the Console](slides/README.md#/reading)
-  - [Reading Characters](slides/README.md#/chars)
-  - [Reading Strings](slides/README.md#/strings)
-  - [Reading Numeral Types](slides/README.md#/numeral)
-  - [Parsing Strings to Numeral Types](slides/README.md#/parsing)
-- [Various _Examples_](slides/README.md#/examples)
-
-#### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/home.png" height="20" /> home](/README.md)
+1. [Sum of 3 numbers](./01. Sum of 3 numbers)
+1. [Company info](./02. Company Info)
+1. [Circle](./03. Circle)
+1. [Formatting Numbers](./04. Formatting Numbers)
+1. [Number Comparer](./05. Numbers Comparer)
+1. [Quadratic Equation](./06. Quadratic Equation)
+1. [Sum of 5 numbers](./07. Sum of 5 Numbers)
+1. [Numbers from 1 to N](./08. Numbers from 1 to n)
+1. [Sum of N Numbers](./09. Sum of n Numbers)
+1. [Fibonacci Numbers](./10. Fibonacci Numbers)
+1. [Interval](./11. Interval)
+1. [Falling Rocks](./12. Falling rocks)

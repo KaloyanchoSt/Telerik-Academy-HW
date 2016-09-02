@@ -1,20 +1,22 @@
-## 03. Operators and Expressions
+Homework: Operators and Expressions
+===================================
 
-Logical, Arithmetic and Bitwise operators, expressions
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/310/CSharp-Fundamentals-03-Operators-and-Expressions)
 
-## Resources
+### Problem List
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/Topics/03.%20Operators-and-Expressions/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](VIDEOS.md)
-
-## Table of Contents
-- [Operators in C# and Operator Precedence](slides/README.md#/operators)
-- [Arithmetic Operators](slides/README.md#/arithmetic)
-- [Logical Operators](slides/README.md#/logical)
-- [Bitwise Operators](slides/README.md#/bitwise)
-- [Comparison Operators](slides/README.md#/comparison)
-- [Assignment Operators](slides/README.md#/assignment)
-- [Other Operators](slides/README.md#/other)
-- [Implicit and Explicit Type Conversions](slides/README.md#/conversion)
-- [Expressions](slides/README.md#/expressions)
-
-#### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/home.png" height="20" /> home](/README.md)
+1. [Odd or Even](./01. Odd or Even)
+1. [Moon Gravity](./02. Moon Gravity)
+1. [Divide by 7 and 5](./03. Divide by 7 and 5)
+1. [Rectangles](./04. Rectangles)
+1. [Third digit](./05. Third digit)
+1. [Four digits](./06. Four digits)
+1. [Point in a circle](./07. Point in a circle)
+1. [Prime check](./08. Prime Check)
+1. [Trapezoids](./09. Trapezoids)
+1. [Point, Circle, Rectangle](./10. Point, Circle, Rectangle)
+1. [3rd Bit](./11. 3rd Bit)
+1. [N-th Bit](./12. N-th bit)
+1. [Modify Bit](./13. Modify Bit)
+1. [BitExchange](./14. BitExchange)
+1. [BitSwap](./15. BitSwap)

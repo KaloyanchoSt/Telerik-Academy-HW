@@ -1,0 +1,10 @@
+Stream is the natural way to transfer data in the computer world
+Write a program that compares two text files line by line and prints the number of lines that are the same
+Streams are used for reading and writing data into and from devices
+Write a program that compares two text files line by line and prints the number of lines that are the same
+Provide consecutive access to its elements
+Different types of streams are available to access different data sources:
+Write a program that compares two text files line by line and prints the number of lines that are the same
+Streams are open before using them and closed after that
+Write a program that compares two text files line by line and prints the number of lines that are the same
+Write a program that compares two text files line by line and prints the number of lines that are the same

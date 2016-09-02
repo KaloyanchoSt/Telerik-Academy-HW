@@ -1,24 +1,21 @@
-## 02. Data Types and Variables
+Homework: Data Types and Variables
+==================================
 
-Primitive data types (`int`, `short`, `byte`, `long`, `bool`, `string`, `char`), creating and using variables
+### [Submit homework in bgcoder](http://bgcoder.com/Contests/313/CSharp-Fundamentals-02-Data-types-and-variables)
 
-## Resources
+### Problem List
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/Topics/02.%20Data-Types-and-Variables/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](VIDEOS.md)
-
-## Table of Contents
-- [Primitive Data Types](slides/README.md#/primitive)
-  - [Integer](slides/README.md#/integer)
-  - [Floating-Point / Decimal Floating-Point](slides/README.md#/float)
-  - [Boolean](slides/README.md#/bool)
-  - [Character](slides/README.md#/char)
-  - [String](slides/README.md#/string)
-  - [Object](slides/README.md#/object)
-- [Declaring and Using Variables](slides/README.md#/declaring)
-  - [Identifiers](slides/README.md#/identifiers)
-  - [Declaring Variables and Assigning Values](slides/README.md#/assign)
-  - [Literals](slides/README.md#/literals)
-- [Nullable Types](slides/README.md#/nullable)
-- [Dynamic Types](slides/README.md#/dynamic)
-
-#### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/home.png" height="20" /> home](/README.md)
+1. [Declare Variables](./01. Declare Variables)
+1. [Float or Double](./02. Float or Double)
+1. [Variable in Hexadecimal Format](./03. Variable in Hexadecimal Format)
+1. [Unicode Character](./04. Unicode Character)
+1. [Boolean Variable](./05. Boolean Variable)
+1. [Strings and Objects](./06. Strings and Objects)
+1. [Quotes in Strings](./07. Quotes in Strings)
+1. [Isosceles Triangle](./08. Isosceles Triangle)
+1. [Exchange Variable Values](./09. Exchange Variable Values)
+1. [Employee Data](./10. Employee Data)
+1. [Bank Account Data](./11. Bank Account Data)
+1. [Null Values Arithmetic](./12. Null Values Arithmetic)
+1. [Comparing Floats](./13. Comparing Floats)
+1. [Print the ASCII Table](./14. Print the ASCII Table)
