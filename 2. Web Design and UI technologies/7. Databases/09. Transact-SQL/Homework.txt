@@ -1,0 +1,162 @@
+1. Create a database with two tables: Persons(Id(PK), FirstName, LastName, SSN) and Accounts(Id(PK), PersonId(FK), Balance).Insert few records for testing. Write a stored procedure that selects the full names of all persons.
+
+CREATE PROC dbo.usp_SelectAllPersonsFullName
+AS
+  SELECT (FirstName + ' ' + LastName) AS FullName
+  FROM Persons
+GO
+
+2. Create a stored procedure that accepts a number as a parameter and returns all persons who have more money in their accounts than the supplied number.
+
+CREATE PROC dbo.usp_SelectAllPersonsFullName  
+	(@minMoney money = 5)
+AS
+  SELECT * FROM Persons p, Accounts a
+  WHERE p.Id = a.PersonId AND a.Balance >= @minMoney
+GO
+
+3. Create a function that accepts as parameters – sum, yearly interest rate and number of months. It should calculate and return the new sum. Write a SELECT to test whether the function works as expected.
+
+CREATE FUNCTION ufn_CalcSalary(@sum money, @yearlyInterestRate int, @numberOfMonths int)
+  RETURNS money
+AS
+BEGIN
+  SET @sum = @sum + @numberOfMonths / @yearlyInterestRate
+
+  RETURN @sum
+END
+
+4. Create a stored procedure that uses the function from the previous example to give an interest to a person's account for one month. It should take the AccountId and the interest rate as parameters.
+
+SELECT FirstName, dbo.ufn_CalcSalary(a.Balance, 32, 1) as Increasement FROM Persons p, Accounts a
+WHERE p.Id = a.PersonId
+
+5. Add two more stored procedures WithdrawMoney(AccountId, money) and DepositMoney(AccountId, money) that operate in transactions.
+
+CREATE PROC usp_DepositMoney
+	(@AccountId int, @money money)
+AS
+BEGIN
+  UPDATE Accounts
+  SET Balance = Balance + @money
+  WHERE @AccountId = Id
+END
+
+CREATE PROC usp_WithdrawMoney
+	(@AccountId int, @money money)
+AS
+BEGIN
+  UPDATE Accounts
+  SET Balance = Balance - @money
+  WHERE @AccountId = Id
+END
+
+6. Create another table – Logs(LogID, AccountID, OldSum, NewSum). Add a trigger to the Accounts table that enters a new entry into the Logs table every time the sum on an account changes.
+
+CREATE TRIGGER tr_UpdateAccountBalance ON Accounts FOR UPDATE
+AS
+    DECLARE @oldSum money;
+    SELECT @oldSum = Balance FROM deleted;
+
+    INSERT INTO Logs(AccountId, OldSum, NewSum)
+        SELECT AccountId, @oldSum, Balance
+        FROM inserted
+GO
+
+EXEC usp_WithdrawMoney 1, 1000
+
+7. Define a function in the database TelerikAcademy that returns all Employee's names (first or middle or last name) and all town's names that are comprised of given set of letters. Example: 'oistmiahf' will return 'Sofia', 'Smith', … but not 'Rob' and 'Guy'.
+
+IF NOT EXISTS (
+    SELECT value
+    FROM sys.configurations
+    WHERE name = 'clr enabled' AND value = 1
+)
+BEGIN
+    EXEC sp_configure @configname = clr_enabled, @configvalue = 1
+    RECONFIGURE
+END
+GO
+
+IF EXISTS (SELECT * FROM sys.objects WHERE name = 'RegExpLike') 
+    DROP FUNCTION RegExpLike;
+GO 
+
+IF EXISTS (SELECT * FROM sys.assemblies WHERE name = 'SqlRegularExpressions') 
+    DROP assembly SqlRegularExpressions; 
+GO      
+
+IF EXISTS (SELECT * FROM sys.objects WHERE name = 'udf_AllMatchingNames') 
+    DROP FUNCTION udf_AllMatchingNames;
+GO  
+
+CREATE Assembly SqlRegularExpressions 
+   FROM 'C:\SqlRegularExpressions.dll' --- CHANGE THE LOCATION
+   WITH PERMISSION_SET = SAFE; 
+GO 
+
+CREATE FUNCTION RegExpLike(@Text nvarchar(MAX), @Pattern nvarchar(255)) RETURNS BIT
+    AS EXTERNAL NAME SqlRegularExpressions.SqlRegularExpressions.[Like]
+GO
+
+CREATE FUNCTION udf_AllMatchingNames(@pattern nvarchar(255))
+    RETURNS @MatchedNames TABLE ( Name varchar(50) )
+AS
+BEGIN
+    INSERT @MatchedNames
+    SELECT * FROM 
+        (SELECT e.FirstName FROM Employees e
+        UNION
+        SELECT e.LastName FROM Employees e
+        UNION 
+        SELECT t.Name FROM Towns t) as temp(name)
+    WHERE 1 = dbo.RegExpLike(LOWER(Name), @pattern)
+    RETURN
+END
+GO
+
+8. Using database cursor write a T-SQL script that scans all employees and their addresses and prints all pairs of employees that live in the same town.
+
+DECLARE empCursor CURSOR READ_ONLY FOR
+    SELECT emp1.FirstName, emp1.LastName, t1.Name, emp2.FirstName, emp2.LastName
+    FROM Employees emp1
+    JOIN Addresses a1
+        ON emp1.AddressID = a1.AddressID
+    JOIN Towns t1
+        ON a1.TownID = t1.TownID,
+        Employees emp2
+        JOIN Addresses a2
+            ON emp2.AddressID = a2.AddressID
+        JOIN Towns t2
+            ON a2.TownID = t2.TownID
+    WHERE t1.TownID = t2.TownID AND emp1.EmployeeID != emp2.EmployeeID
+    ORDER BY emp1.FirstName, emp2.FirstName
+
+OPEN empCursor
+
+DECLARE @firstName1 nvarchar(50), 
+        @lastName1 nvarchar(50),
+        @townName nvarchar(50),
+        @firstName2 nvarchar(50),
+        @lastName2 nvarchar(50)
+FETCH NEXT FROM empCursor INTO @firstName1, @lastName1, @townName, @firstName2, @lastName2
+
+DECLARE @counter int;
+SET @counter = 0;
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+    SET @counter = @counter + 1;
+
+    PRINT @firstName1 + ' ' + @lastName1 + 
+          '     ' + @townName + '       ' +
+          @firstName2 + ' ' + @lastName2;
+
+    FETCH NEXT FROM empCursor 
+    INTO @firstName1, @lastName1, @townName, @firstName2, @lastName2
+END
+
+print 'Total records: ' + CAST(@counter AS nvarchar(10));
+
+CLOSE empCursor
+DEALLOCATE empCursor

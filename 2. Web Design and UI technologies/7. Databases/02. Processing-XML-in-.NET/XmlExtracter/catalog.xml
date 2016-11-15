@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalogue>
+   <album>
+    <name>Chop Suey</name>
+    <artist>System of down</artist>
+    <year>2001</year>
+    <producer>Interscope</producer>
+    <price>$22.99</price>
+    <songs>
+      <song>
+        <title>Toxcity</title>
+        <duration>3:04</duration>
+      </song>
+      <song>
+        <title>Psycho</title>
+        <duration>3:51</duration>
+      </song>
+      <song>
+        <title>Chop Suey</title>
+        <duration>3:30</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Untochables</name>
+    <artist>Korn</artist>
+    <year>2001</year>
+    <producer>Roadrunner</producer>
+    <price>$12.99</price>
+    <songs>
+      <song>
+        <title>Got the life</title>
+        <duration>3:04</duration>
+      </song>
+      <song>
+        <title>Freak on a leash</title>
+        <duration>3:51</duration>
+      </song>
+      <song>
+        <title>Right now</title>
+        <duration>3:30</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>The black album</name>
+    <artist>Metallica</artist>
+    <year>1993</year>
+    <producer>Ross Robinson</producer>
+    <price>$12.99</price>
+    <songs>
+      <song>
+        <title>Master of Pupets</title>
+        <duration>3.03</duration>
+      </song>
+      <song>
+        <title>Seek and destroy</title>
+        <duration>2.59</duration>
+      </song>
+      <song>
+        <title>Enter sandman</title>
+        <duration>4.12</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Three Dollar Bill</name>
+    <artist>Limp Bizkit</artist>
+    <year>1997</year>
+    <producer>Interscope</producer>
+    <price>$12.99</price>
+    <songs>
+      <song>
+        <title>Stuck</title>
+        <duration>2:33</duration>
+      </song>
+      <song>
+        <title>Leech</title>
+        <duration>2:10</duration>
+      </song>
+      <song>
+        <title>Pollution</title>
+        <duration>3:03</duration>
+      </song>
+      <song>
+        <title>Everything</title>
+        <duration>10:03</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

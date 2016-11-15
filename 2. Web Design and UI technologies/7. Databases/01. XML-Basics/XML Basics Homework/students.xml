@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="students.xslt"?>
+<students name="Academy Students" xmlns:students="urn:http://telerikacademy.com/Forum/Home:students">
+  <students:student>
+    <students:name>Pesho</students:name>
+    <students:sex>Male</students:sex>
+    <students:birth-date>10.08.1987</students:birth-date>
+    <students:phone>0888123456</students:phone>
+    <students:email>pesho@mail.com</students:email>
+    <students:course>1</students:course>
+    <students:specialty>Programming</students:specialty>
+    <students:faculty-number>000111</students:faculty-number>
+    <students:taken-exams>
+      <exam>
+        <name>JavaScript Fundamentals</name>
+        <tutor>Konstantin Simeonov</tutor>
+        <score>3</score>
+      </exam>
+    </students:taken-exams>
+  </students:student>
+
+  <students:student>
+    <students:name>Penka</students:name>
+    <students:sex>Female</students:sex>
+    <students:birth-date>10.08.1987</students:birth-date>
+    <students:phone>0888123456</students:phone>
+    <students:email>penka@mail.com</students:email>
+    <students:course>2</students:course>
+    <students:specialty>Programming</students:specialty>
+    <students:faculty-number>000222</students:faculty-number>
+    <students:taken-exams>
+      <exam>
+        <name>C# Fundamentals</name>
+        <tutor>Ivan Kolev</tutor>
+        <score>6</score>
+      </exam>
+    </students:taken-exams>
+  </students:student>
+
+</students>
