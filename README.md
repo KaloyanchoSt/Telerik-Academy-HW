@@ -73,7 +73,7 @@ Telerik Academy 2016/2017
 ---
 
 ###### [JS Fundamentals](Homeworks/JS-FUNDAMENTALS)
-* [Data Types and Variables](Homeworks/JS-FUNDAMENTALS/Data-Types-And-Variables)
+* [Data Types and Variables](2.%20Web%20Design%20and%20UI%20technologies/3.%20JavaScript-Fundamentals/01.%20Data%20types%20and%20Variables)
 * [Operators and Expressions](Homeworks/JS-FUNDAMENTALS/Operators-And-Expressions)
 * [Conditional Statements](Homeworks/JS-FUNDAMENTALS/Conditional-Statements)
 * [Loops](Homeworks/JS-FUNDAMENTALS/Loops)
