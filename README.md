@@ -1,4 +1,4 @@
-# TelerikAcademy
+# Kaloyan Stefanov - TelerikAcademy
 In this repo you can find all my homeworks, team projects from my training at Telerik Academy april 2016-april 2017.
 
 In Telerik Academy we have learned several topics and programming languages like: C#, JavaScript, SQL and Other. Here is the list of the student program:
