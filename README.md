@@ -17,7 +17,7 @@ In Telerik Academy we have learned several topics and programming languages like
 ---
 
 ###### [C# Part 1](Homeworks/C%231)
-* [Intro to Programming](1.%20Programming/1.%20CSharp-Part-1/1.%20Intro-Programming-Homework)
+* [Intro to Programming](1.%20Programming%20C%23/1.%20CSharp-Part-1/1.%20Intro-Programming-Homework)
 * [Primitive Data Types and Variables](1.%20Programming/1.%20CSharp-Part-1/2.%20Data-Types-and-Variables)
 * [Operators and Expressions](1.%20Programming/1.%20CSharp-Part-1/3.%20Operators-and-Expressions)
 * [Conditional Statements](Homeworks/C%231/Conditional-Statements)
