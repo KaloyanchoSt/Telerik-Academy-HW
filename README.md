@@ -65,7 +65,7 @@ In Telerik Academy we have learned several topics and programming languages like
 ---
 
 ###### [CSS](Homeworks/CSS)
-* [CSS Overview](Homeworks/CSS/CSS-Overview)
+* [CSS Overview](2.%20Web%20Design%20and%20UI%20technologies/2.%20CSS/01.%20CSS-Overview)
 * [CSS Presentation](Homeworks/CSS/CSS-Presentation)
 * [CSS Layout](Homeworks/CSS/CSS-Layout)
 * [CSS Preprocessors](Homeworks/CSS/CSS-Processors)
@@ -91,11 +91,11 @@ In Telerik Academy we have learned several topics and programming languages like
 ---
 
 ###### [JS OOP](Homeworks/JS-OOP)
-* [Functions and Function Expressions](Homeworks/JS-OOP/Functions-And-Function-Expressions)
-* [Closures and Scope](Homeworks/JS-OOP/Scopes-and-Closure)
-* [Classical Inheritance](Homeworks/JS-OOP/Classical-Inheritance)
+* [Functions and Function Expressions](2.%20Web%20Design%20and%20UI%20technologies/5.%20JavaScript-OOP/02.%20Functions-and-Function-Expressions)
+* [Closures and Scope](2.%20Web%20Design%20and%20UI%20technologies/5.%20JavaScript-OOP/03.%20Closures-and-Scope)
+* [Class Inheritance](2.%20Web%20Design%20and%20UI%20technologies/5.%20JavaScript-OOP/06.%20Class-Inheritance)
 * [Prototype-based inheritance](Homeworks/JS-OOP/Prototypal-Inheritance)
-* [Modules and Patterns](Homeworks/JS-OOP/Modules-And-Patterns)
+* [Modules and Patterns](2.%20Web%20Design%20and%20UI%20technologies/5.%20JavaScript-OOP/07.%20Modules-and-Patterns)
 
 [*Go to top* ^](#telerikacademy)
 
@@ -114,9 +114,11 @@ In Telerik Academy we have learned several topics and programming languages like
 
 ---
 
-###### [JS APPS](Homeworks/JS-APPS)
-* [Underscore](Homeworks/JS-APPS/Underscore)
-
+###### [JS APPS](2.%20Web%20Design%20and%20UI%20technologies/6.%20JavaScript-Applications)
+* [Promises and Asynchronous Programming](2.%20Web%20Design%20and%20UI%20technologies/6.%20JavaScript-Applications/01.%20Promises%20and%20asynchronous%20programming)
+* [Handlebars](2.%20Web%20Design%20and%20UI%20technologies/6.%20JavaScript-Applications/02.%20Handlebars)
+* [Web Storages](2.%20Web%20Design%20and%20UI%20technologies/6.%20JavaScript-Applications/03.%20Web%20Storages)
+  
 [*Go to top* ^](#telerikacademy)
 
 ---
@@ -144,8 +146,8 @@ In Telerik Academy we have learned several topics and programming languages like
 
 ---
 
-###### [DB](Homeworks/DB)
-* [XML Basics](Homeworks/DB/XML-Basics)
+###### [DB](2.%20Web%20Design%20and%20UI%20technologies/7.%20Databases)
+* [XML Basics](2.%20Web%20Design%20and%20UI%20technologies/7.%20Databases/01.%20XML-Basics)
 * [XML Parsers](Homeworks/DB/XML-Parsers)
 * [JSON Processing](Homeworks/DB/JSON-Processing)
 * [SQL Server And MySQL - Introduction](Homeworks/DB/SQL-Server-And-MySQL-Introduction)
